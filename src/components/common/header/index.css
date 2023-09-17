@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+p,h1,h2,h3,h4,h5,h6,span,label{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 100%;
+  margin: auto;
+}
+.flexSB{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex{
+  display: flex;
+}
+.paddingTB{
+  padding: 40px 0;
+}

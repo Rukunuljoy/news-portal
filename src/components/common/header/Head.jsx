@@ -7,7 +7,7 @@ const Head = () => {
                 <div className="logo">
                     <img src="/images/logo.png" alt="" />
                 </div>
-                <div className="ad">
+                <div className="add">
                     <img src="../images/headerb.png" alt="" />
                 </div>
             </div>

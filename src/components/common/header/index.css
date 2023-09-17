@@ -17,8 +17,11 @@ p,h1,h2,h3,h4,h5,h6,span,label{
 a{
   text-decoration: none;
 }
+.head {
+  cursor: pointer;
+}
 .container{
-  max-width: 100%;
+  max-width: 90%;
   margin: auto;
 }
 .flexSB{
@@ -26,9 +29,10 @@ a{
   align-items: center;
   justify-content: space-between;
 }
-.flex{
-  display: flex;
-}
+
 .paddingTB{
   padding: 40px 0;
+}
+li{
+list-style-type: none;
 }

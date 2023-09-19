@@ -1,4 +1,5 @@
 import { Hero } from '../Hero/Hero';
+import Discover from '../discover/Discover';
 import HomePage from '../mainContent/Homes/HomePage';
 import './Home.css'
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Hero/>
             <HomePage/>
+            <Discover/>
         </div>
     );
 };

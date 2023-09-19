@@ -1,3 +1,4 @@
+import Side from "../../sideContent/side/Side";
 import Life from "../Life/Life";
 import Music from "../Musics/Music";
 import Ppost from "../Ppost/Ppost";
@@ -14,7 +15,9 @@ const HomePage = () => {
             <Life/>
             <Music/>
             </section>
-            <section className="sideContent"></section>
+            <section className="sideContent">
+              <Side/>
+            </section>
         </div>
     </main>
   </div>;

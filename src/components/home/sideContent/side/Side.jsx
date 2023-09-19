@@ -6,6 +6,7 @@ import Tpost from "../Tpost/Tpost";
 
 
 const Side = () => {
+    const category = ["world", "travel", "sport", "fun", "health", "fashion", "business", "technology"]
     return (
         <>
             <Heading title="Stay Connected"/>
@@ -22,6 +23,16 @@ const Side = () => {
                 <img src="/images/sidebar-banner-new.jpg" alt="" />
             </section>
             <Tpost/>
+            <section className="categorys">
+                <Heading title="Category"/>
+                {category.map((val)=>{
+                    return(
+                        <div key={val} className="category category1">
+                            <span>{val}</span>
+                        </div>
+                    )
+                })}
+            </section>
         </>
     );
 };
